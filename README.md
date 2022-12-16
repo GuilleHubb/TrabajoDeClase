@@ -6,11 +6,11 @@
 
 *Empiezo* viendo y pensando **ideas_diseño** para la ~tarea~ con   **_Diseño_**
 
-***He estado mirando la funcionalidad de diferentes formatos que ofrece GitHub**_	
+**He estado mirando la funcionalidad de diferentes formatos que ofrece GitHub**	
 
-<sub>texto</sub>
+<sub>textoSub</sub>
 
-<sup>texto</sup>
+<sup>textoSup</sup>
 
 Comandos básicos de Git:
 ```
