@@ -1,0 +1,29 @@
+import Foundation
+
+var numero: Float
+var suma: Float = 0
+var contador: Float = 0
+
+let maxNumeros: Float = 5
+
+
+print("Escribe 5 números")
+
+repeat{
+    
+    let numeroEntrada = Float(readLine()!)
+    
+    if(numeroEntrada != nil){
+        
+        suma += Float(numeroEntrada!)
+        contador += 1
+        
+    } else{
+        print("Solo numeros... Boludo")
+    }
+    
+} while contador <  maxNumeros
+
+
+print(suma / maxNumeros)
+
