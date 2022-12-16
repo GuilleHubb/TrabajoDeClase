@@ -1,0 +1,31 @@
+
+import Foundation
+
+print("Dime una frase")
+
+var texto: String = readLine()!
+texto = texto.lowercased()
+
+let array = texto.components(separatedBy:" ")
+var textoFinal = ""
+
+
+for i in 1...array.count {
+    texto = array[i-1]
+    if texto.first == "j" || texto.first == "p" || texto.first == "m"{
+        
+        let textoLetra = String(texto.first!)
+        
+        let textoCensurado = String(repeating: "*", count: texto.count-1)
+        texto = textoLetra + textoCensurado
+    }
+    
+    if textoFinal == "" {
+        textoFinal = textoFinal + texto
+    }
+    else{
+        textoFinal = textoFinal + " " + texto
+    }
+    
+}
+print(textoFinal)
