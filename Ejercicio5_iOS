@@ -1,0 +1,21 @@
+
+import Foundation
+
+
+print("Escribe una cifra en números romanos")
+
+
+var texto: String = readLine()!
+
+var numero = 0
+
+var romano = ["I": 1, "i": 1, "V": 5, "v": 5, "X": 10, "x": 10, "L": 50, "l": 50, "C": 100, "c": 100, "M": 1000, "m": 1000]
+
+for i in texto {
+    
+    numero += romano[String(i)]!
+    
+    
+}
+print(numero)
+
