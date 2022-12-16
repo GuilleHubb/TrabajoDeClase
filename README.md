@@ -1,12 +1,12 @@
 # TrabajoDeClase
 
-##
+##Titulo1
 
-###
+###Titulo2
 
 *Empiezo* viendo y pensando **ideas_diseño** para la ~tarea~ con   **_Diseño_**
 
-*****_	
+***He estado mirando la funcionalidad de diferentes formatos que ofrece GitHub**_	
 
 <sub>texto</sub>
 
