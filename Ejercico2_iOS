@@ -1,0 +1,45 @@
+import Foundation
+
+print("Vamos a jugar a la ruleta rusa")
+
+
+var lose: Bool = false
+
+repeat {
+
+    let posicionBala = Int.random(in: 1...6)
+    
+    print("Jugador 1, elija Num de posición")
+
+    var jugadorUno: Int?
+    let jugador1 = readLine()
+
+    jugadorUno = Int(jugador1!)
+    
+    if jugadorUno == posicionBala{
+        print("Jugador uno a muerto")
+        lose = true
+    }else {
+        print("Jugador uno a sobrevivido")
+        
+        print("turno jugador 2")
+    }
+
+    print("Jugador 2, elija Num de posición")
+
+    var jugadorDos: Int?
+    let jugador2 = readLine()
+    
+    jugadorDos = Int(jugador2!)
+    
+    if jugadorDos == posicionBala{
+        print("Jugador uno a muerto")
+        lose = true
+    }else {
+        print("Jugador uno a sobrevivido")
+        
+        print("turno jugador 2")
+    }
+    
+    
+} while !lose
