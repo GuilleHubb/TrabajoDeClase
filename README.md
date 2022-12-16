@@ -1,16 +1,16 @@
 # TrabajoDeClase
 
-##Aquí subiré mi trabajo de clase 
+##
 
-###ACTUALIZACIÓN: 13/12/22
+###
 
-*Comienzo* a hacer los primeros **commits** con el ~trabajo~ que llevo de **BBDD e _IOS._**
+*Empiezo* viendo y pensando **ideas_diseño** para la ~tarea~ con   **_Diseño_**
 
-***Como hemos podido ver aquí, he usado varios formatos ofrecidos por Git para diferenciar el texto en formato markdown**_	
+*****_	
 
-<sub>Este texto es un subindice</sub>
+<sub>texto</sub>
 
-<sup>Este texto es un superindice</sup>
+<sup>texto</sup>
 
 Comandos básicos de Git:
 ```
@@ -19,14 +19,14 @@ git add
 git commit
 ```
 
-Para demostrar colores:  `#ffffff` Blanco `#0d1117` Negro.
+`#FC4F38` Naranja/Rojizo `#5C57FF` Azul.
 
-Acceder al: [Repositorio]([https://pages.github.com/](https://github.com/AnCarSan/trabajoDeClase/)).
+Entrar a mi: [Trabajo]([https://pages.github.com/](https://github.com/GuilleHubb/TrabajoDeClase/)).
 
-100. Listas
-     - Elemento1
-       - Elemento2
+100. Hola
+     - Mundo
+       - Que tal
 
-- [x] #739
-- [ ] https://github.com/AnCarSan/trabajoDeClase/
-- [ ] HolaMundo! :tada:
+- [x] #128
+- [ ] https://github.com/GuilleHubb/TrabajoDeClase/
+- [ ]  :smile:
