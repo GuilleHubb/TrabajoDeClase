@@ -1,0 +1,50 @@
+import Foundation
+
+
+/* Ejercicio 1 con .reduce */
+
+var suma: Float = 0
+var contador: Float = 0
+
+var Numeros: [Float] = []
+
+let maxNumeros: Float = 5
+
+
+print("Escribe 5 números")
+
+repeat{
+    
+    let numeroEntrada = Float(readLine()!)
+    Numeros.append(numeroEntrada!)
+    if(numeroEntrada != nil){
+        
+        contador += 1
+        
+    } else{
+        print("Solo numeros... Boludo")
+    }
+    
+} while contador <  maxNumeros
+
+suma = Numeros.reduce(0, { x,y in x + y})
+/*
+ 0 = resultado inicial, la ´x´ es la primera posición del Array = Numeros[0]
+ 
+ ´y´ es la segunda posición del Array[1] /  ´in x + y´ = es la suma de la primera y segunda posición
+ 
+ El ´.reduce´ recorre el Array y guarda la suma de los valores y con el valor de esa suma ejecuta la siguiente, hasta que no queden espacios en el Array
+ 
+ */
+
+print(suma / maxNumeros)
+
+
+
+
+
+/* Ejercicio 4 usando .map */
+
+
+
+
